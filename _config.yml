@@ -12,7 +12,7 @@ email: jekyll@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: ''
+baseurl: 'premierjekyll'
 url: ''
 twitter_username: shayna_m85
 github_username: meli850607
