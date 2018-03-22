@@ -23,6 +23,10 @@
     color: $grey-color-dark;
   }
 }
+.logo{
+  width: 40%;
+  height: auto;
+}
 
 body{
   background: #355C7D;  /* fallback for old browsers */
@@ -121,6 +125,7 @@ body{
   margin-right: 150px;
 }
 .btn-default{
+  margin-top: 30px;
   border: 1px solid;
   border-radius: 10px;
   padding-left: 10px;
@@ -134,12 +139,14 @@ body{
   text-decoration: none;
 }
 .btn-default:hover{
-  border: 1px solid white;
+  border: 1px solid #355C7D;
+  background-color: #6C5B7B;
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
 }
+
 /**
  * Site footer
  */
@@ -223,6 +230,7 @@ body{
 .post-list-heading {
   @include relative-font-size(2);
   margin-bottom: 30px;
+  margin-top: 20px;
 
 }
 
@@ -240,6 +248,7 @@ body{
     border: 1px solid;
     border-radius: 30px;
     border-color: black;
+    padding-top: 25px;
 
   }
 }
@@ -247,12 +256,20 @@ body{
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
 }
 
 .post-link {
   display: inline-grid;
   @include relative-font-size(1.5);
-
+}
+.post-link:hover{
+  color:#C06C84;
+  opacity: 0.75;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
 }
 
 
