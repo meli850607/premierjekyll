@@ -28,6 +28,17 @@
   height: auto;
 }
 
+.logo:hover{
+  background-color: #355C7D;
+  border-radius: 20px;
+  border-color: #6C5B7B;
+  opacity: 0.3;
+  transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+}
+
 body{
   background: #355C7D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
