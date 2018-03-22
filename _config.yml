@@ -2,11 +2,11 @@
 title: Jekyll
 timezone: UTC
 collections:
-  posts:
-    title: posts
-    output: true
   uploads:
     title: Uploads
+    output: true
+  posts:
+    title: posts
     output: true
 email: jekyll@example.com
 description: Write an awesome description for your new site here. You can edit this
