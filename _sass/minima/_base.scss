@@ -99,6 +99,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
   text-align: center;
   margin-right: 20px;
+  margin-top: 20px;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+
 }
 h2{
   margin-right: 30px;
