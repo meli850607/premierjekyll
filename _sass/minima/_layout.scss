@@ -24,14 +24,13 @@
   }
 }
 .logo{
-  width: 40%;
+  margin-top: 20px;
+  width: 70px;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .logo:hover{
-  background-color: #355C7D;
-  border-radius: 20px;
-  border-color: #6C5B7B;
   opacity: 0.3;
   transition: 1s;
   -moz-transition: 1s;
